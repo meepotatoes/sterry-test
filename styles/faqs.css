@@ -1,0 +1,131 @@
+
+/* faqs section */
+
+section.faqs {
+    padding: 128px 0;
+}
+
+section.faqs .flex-wrapper {
+    display: flex;
+    column-gap: 64px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section.faqs .flex-wrapper .left-flex {
+    flex: 1;
+}
+
+section.faqs .flex-wrapper .left-flex .image-wrapper {
+    padding: 0 40px 40px 0;
+    position: relative;
+}
+
+section.faqs .flex-wrapper .left-flex .image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 300px;
+    width: 5px;
+    border: 3px solid white;
+    border-width: 3px 3px 3px 0px;
+    background-color: #AA205E;
+    border-radius: 0 18px 18px 0;
+}
+
+
+section.faqs .flex-wrapper .left-flex .image-wrapper img.main-image {
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+
+}
+
+section.faqs .flex-wrapper .left-flex .image-wrapper img.sub-image {
+    width: 270px;
+    height: 325px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 10px solid #fff;
+    border-radius: 10px;
+
+}
+
+
+section.faqs .flex-wrapper .right-flex {
+    flex: 1;
+}
+
+
+
+
+
+section.faqs .flex-wrapper .right-flex .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-item {
+    border-bottom: 2px solid #EDEDED;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 16px 0px;
+    cursor: pointer;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-icon {
+    position: relative;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-icon .horizontal,
+section.faqs .flex-wrapper .right-flex .accordion-icon .vertical {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 16px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #AA205E;
+    transition: all .3s ease-in-out;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-icon .vertical {
+    transform: rotate(90deg);
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-icon.accordion-icon-active .vertical {
+    transform: rotate(180deg);
+}
+
+
+
+section.faqs .flex-wrapper .right-flex .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-content-active {
+    max-height: 300px;
+}
+
+section.faqs .flex-wrapper .right-flex .accordion-content p {
+    padding-bottom: 24px;
+}
+
+
+
+

@@ -1,0 +1,294 @@
+footer {
+    background-color: #0B142F;
+    padding: 64px 0;
+}
+
+footer .upper-footer {
+    margin-bottom: 32px;
+}
+
+footer .upper-footer .flex-wrapper {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .upper-footer .flex-wrapper .left-flex {
+    max-width: 480px;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    footer .upper-footer .flex-wrapper .left-flex {
+        max-width: 100%;
+    }
+}
+
+footer .upper-footer .flex-wrapper .left-flex img.brand-logo {
+    width: 165px;
+    height: 50px;
+    object-fit: cover;
+}
+
+footer .upper-footer .flex-wrapper .left-flex img.brand-logo {
+    width: 165px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+footer .upper-footer .flex-wrapper .left-flex .socials {
+
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer .upper-footer .flex-wrapper .left-flex .socials a {
+    display: inline-block;
+    line-height: 1;
+    padding: 18px;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 32px;
+}
+
+@media (max-width: 991px) {
+    footer .upper-footer .flex-wrapper .right-flex {
+        width: 100%;
+    }
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+@media (max-width: 991px) {
+    footer .upper-footer .flex-wrapper .right-flex .footer-email {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email .label {
+    gap: 20px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email .label img {
+    left: -6px;
+    position: relative;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email .label .label-flex {}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email .label .label-flex h4 {
+    margin: 0;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email form {
+    display: flex;
+    gap: 12px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email form input[type=email] {
+    background-color: transparent;
+    padding: 14px 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E2E8F080;
+    border-radius: 6px;
+
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email form button[type=submit] {
+    width: 50px;
+    border-radius: 6px;
+    background-color: #aa205e;
+    position: relative;
+    cursor: pointer;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-email form button[type=submit]::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 991px) {
+    footer .upper-footer .flex-wrapper .right-flex .footer-links {
+        flex-direction: column;
+    }
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap {
+
+    display: flex;
+    flex: 1 1 33.33%;
+    flex-direction: column;
+    row-gap: 32px;
+}
+@media (max-width: 991px) {
+    footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap {
+        flex: 100%;
+    }
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.link {
+    max-width: 190px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.contact {
+
+    max-width: 240px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap h3 {
+    padding: 0 0 0 24px;
+    position: relative;
+    margin: 0;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap h3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 4px;
+    background-color: #C94480;
+    border-radius: 5px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap ul {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap ul li {
+
+    padding-left: 20px;
+
+}
+
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap ul li a::before {
+    content: "";
+    position: absolute;
+    top: 49%;
+    bottom: 0;
+    left: -20px;
+    transform: translateY(-56%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap ul li a {
+    display: block;
+    position: relative;
+    color: #f5f5f5;
+
+}
+
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.contact {
+    max-width: 240px;
+}
+
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.contact h4 {
+    margin: 0;
+    position: relative;
+    display: block;
+    padding: 0 0 0 12px;
+}
+
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.contact h4::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background-color: #C94480;
+    border-radius: 5px;
+}
+
+footer .upper-footer .flex-wrapper .right-flex .footer-links .footer-link-wrap.contact p {
+    padding-left: 8px;
+    position: relative;
+    border-left: 1px solid #f5f5f54d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .lower-footer {
+    text-align: center;
+}
+
+footer .lower-footer .copyright-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+
+footer .lower-footer .copyright-wrap p {
+    flex: 0 0 auto;
+    color: #757575;
+}
+
+footer .lower-footer .copyright-wrap .spacer {
+    flex: 1;
+    background-color: #757575;
+    margin: 0;
+}
+
+
+footer .lower-footer .copyright-logo {
+    max-width: 90px;
+}

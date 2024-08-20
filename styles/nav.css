@@ -1,0 +1,79 @@
+/* Navigation */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin-top: 64px;
+
+}
+
+header nav.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav.site-nav .logo {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1F1F1F;
+    text-decoration: none;
+}
+
+header nav.site-nav .right-aligned {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+header nav.site-nav .right-aligned .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+header nav.site-nav .right-aligned .nav-links li {
+    list-style: none;
+    flex: auto;
+}
+
+header nav.site-nav .right-aligned .nav-links li a {
+    font-size: 0.875rem;
+}
+
+header nav.site-nav .right-aligned .nav-links li a.active {
+    color: #C94480;
+}
+
+header nav.site-nav .right-aligned .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav.site-nav .right-aligned .buttons a {
+    display: inline-block;
+    line-height: 1;
+}
+
+header nav.site-nav .right-aligned .buttons .cart {
+    top: -4px;
+    position: relative;
+}
+
+header nav.site-nav .right-aligned .buttons .profile a img {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+}
